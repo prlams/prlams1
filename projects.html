@@ -309,7 +309,8 @@ footer {
 
     .project-gallery {
         width: 90%;
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 18px;
     }
 
